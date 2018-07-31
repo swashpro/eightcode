@@ -123,7 +123,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #7DC6C1;
 		text-decoration: none;
 	}
 
@@ -2109,8 +2109,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #7DC6C1;
+			box-shadow: 0 0 0 2px #7DC6C1;
 		}
 
 	select {
@@ -2208,8 +2208,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #7DC6C1;
+			box-shadow: 0 0 0 1px #7DC6C1;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2275,51 +2275,28 @@
 
 			.box.features .features-row section {
 				float: left;
-				padding: 3em;
-				width: 50%;
+				padding: 1em;
+				width: 25%;
+				margin-top: 40px;
 			}
 
-				.box.features .features-row section :last-child {
-					margin-bottom: 0;
-				}
-
-				.box.features .features-row section:nth-child(2n) {
-					padding-right: 0;
-				}
-
-					.box.features .features-row section:nth-child(2n):before {
-						background: #e5e5e5;
-						content: '';
-						display: block;
-						height: 100%;
-						margin-left: -3em;
-						position: absolute;
-						top: 0;
-						width: 2px;
-					}
-
-				.box.features .features-row section:nth-child(2n-1) {
-					padding-left: 0;
-				}
-
-			.box.features .features-row:first-child {
-				border-top: 0;
+			.box.features h3{
+				font-size: 22px;
+		    border: 1px solid lightgrey;
+		    padding: 30px;
+		    margin-top: -80px;
+		    padding-top: 50px;
+		    min-height: 150px;
+		    vertical-align: middle;
+		    border-radius: 5px;
 			}
-
-				.box.features .features-row:first-child section {
-					padding-top: 0;
-				}
-
-			.box.features .features-row:last-child {
-				padding-bottom: 0;
-			}
-
-				.box.features .features-row:last-child section {
-					padding-bottom: 0;
-				}
 
 		.box.special {
 			text-align: center;
+		}
+
+		.box.special p{
+			min-height: 140px;
 		}
 
 		.box .image.featured {
@@ -2383,39 +2360,67 @@
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			height: 5.5em;
-			line-height: 5.5em;
+			height: 3.5em;
+			line-height: 3.5em;
 			margin: 0 0 2em 0;
-			width: 5.5em;
+			width: 3.5em;
+			outline: 15px solid white;
 		}
 
 			.icon.major:before {
-				font-size: 2.5em;
+				font-size: 1.5em;
 			}
 
 			.icon.major.accent1 {
-				background: grey;
+				background: #7DC6C1;
 				color: #ffffff;
 			}
 
 			.icon.major.accent2 {
-				background: grey;
+				background: #7DC6C1;
 				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
-				background: grey;
+				background: #7DC6C1;
 				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
-				background: grey;
+				background: #7DC6C1;
 				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
-				background: grey;
+				background: #7DC6C1;
 				color: #ffffff;
+			}
+
+			.technology-used{
+				list-style: none;
+				width: 100%;
+			}
+
+			.technology-used li{
+				display: inline-block;
+				width: 9%;
+				margin: 2%;
+				margin-top: 40px;
+				vertical-align: middle;
+			}
+
+			.technology-used li:nth-of-type(4){
+				width: 13%;
+			}
+
+			.technology-used li:nth-of-type(5){
+				width: 15%;
+			}
+			.technology-used li:nth-of-type(6){
+				width: 15%;
+			}
+			.technology-used img{
+				width: 100%;
 			}
 
 /* Image */
@@ -2742,7 +2747,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #737373;
+			background-color: lightgrey;
 		}
 
 		input[type="submit"]:active,
@@ -2825,7 +2830,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: #7DC6C1;
 			color: #ffffff !important;
 		}
 
@@ -3106,7 +3111,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #7DC6C1;
 				color: #ffffff;
 			}
 
