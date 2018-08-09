@@ -2367,6 +2367,10 @@
 			outline: 15px solid white;
 		}
 
+		@media only screen and (max-width: 600px) {
+			margin: 0 0 4em 0;
+		}
+
 			.icon.major:before {
 				font-size: 1.5em;
 			}
